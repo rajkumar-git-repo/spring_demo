@@ -10,8 +10,9 @@ public class SpringDemoApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(SpringDemoApplication.class, args);
-		System.out.println("Demo Application");
+		System.out.println("Start Demo Application");
 		System.out.println("*************SPRING APPLICATION STARTED SUCCESSFULLY*****************");
+		System.out.println("End Demo Application");
 	}
 
 }
