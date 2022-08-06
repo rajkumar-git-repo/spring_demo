@@ -13,6 +13,7 @@ public class SpringDemoApplication {
 		System.out.println("Start Demo Application");
 		System.out.println("*************SPRING APPLICATION STARTED SUCCESSFULLY*****************");
 		System.out.println("End Demo Application");
+
 	}
 
 }
