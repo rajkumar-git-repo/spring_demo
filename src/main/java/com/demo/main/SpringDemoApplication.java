@@ -16,4 +16,7 @@ public class SpringDemoApplication {
 
 	}
 
+	private void loadOnStartup() {
+		System.out.println("Load on startup");
+	}
 }
