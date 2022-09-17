@@ -50,4 +50,7 @@ public class Employee {
 		this.salary = salary;
 	}
 
+	public static void main(String[] args) {
+		System.out.println("Employee new chnages");
+	}
 }
