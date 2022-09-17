@@ -6,6 +6,18 @@ public class Address {
 	private String city;
 	private String state;
 	private String country;
+	
+	private String pin;
+	
+	
+
+	public String getPin() {
+		return pin;
+	}
+
+	public void setPin(String pin) {
+		this.pin = pin;
+	}
 
 	public int getId() {
 		return id;

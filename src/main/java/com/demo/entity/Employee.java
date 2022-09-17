@@ -6,6 +6,17 @@ public class Employee {
 	private String firstName;
 	private String lastName;
 	private int salary;
+	
+	private String companyName;
+	
+
+	public String getCompanyName() {
+		return companyName;
+	}
+
+	public void setCompanyName(String companyName) {
+		this.companyName = companyName;
+	}
 
 	public int getId() {
 		return id;
