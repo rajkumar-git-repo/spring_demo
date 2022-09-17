@@ -51,4 +51,9 @@ public class Address {
 		this.country = country;
 	}
 
+	@Override
+	public int hashCode() {
+		System.err.println("My new chnages");
+		return super.hashCode();
+	}
 }
